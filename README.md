@@ -51,6 +51,12 @@ Retail-SQL-Performance-Analytics/
 
 │
 
+├── data/
+
+│ └── Sample_SuperStore_Cleaned.xlsx
+
+|
+
 ├── screenshots/
 
 │ └── schema_diagram.png
@@ -85,7 +91,7 @@ Retail-SQL-Performance-Analytics/
 ##  How to Run
 
 1. Create a MySQL database  
-2. Import the base tables (`orders`, `returned`, `people`)  
+2. Import Sample_SuperStore_Cleaned.xlsx -> (`orders`, `returned`, `people`)  
 3. Run `sql/retail_sales_project.sql`  
 4. Query the views:  
    - `vw_orders_full`  
